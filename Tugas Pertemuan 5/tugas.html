@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Logo TPQ.PNG.png" alt="Logo TPQ" width="100">
+        <h1>Formulir Pendaftaran</h1>
+        <h2>Taman Pendidikan Al-Quran (TPA)</h2>
+        <h2>Baiturahman - Banyuwangi</h2>
+    </header>
+    <main>
+        <form action="submit" name="registrasi" method="post">
+            <p><strong>A. Data Santri</strong></p>
+            <label for="nama lengkap">Nama Lengkap</label>
+            <input type="text" name="nama lengkap" id="nama lengkap"><br>
+            <label for="tempat lahir">Tempat Lahir</label>
+            <input type="text" name="tempat lahir" id="tempat lahir"><br>
+            <label for="tgl lahir">Tanggal Lahir</label>
+            <input type="date" id="start" name="tgl lahir" value="2004-01-01" min="2004-01-01" max="2023-01-01"><br>
+            <label for="jenis kelamin">Jenis Kelamin</label>
+            <select name="jenis kelamin" id="jenis kelamin">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select><br>
+            <label for="asal sekolah">Asal Sekolah</label>
+            <input type="text" name="asal sekolah" id="asal sekolah"><br>
+            <label for="alamat">Alamat</label>
+            <Textarea cols="25" rows="5"></Textarea><br>
+            <label for="waktu kursus">Waktu TPA</label>
+            <input type="checkbox">14.00-16.00
+            <input type="checkbox">16.15-18.15
+            <br>  
+            <p><strong>B. Wali Santri</strong></p>  
+            <label for="nama orangtua/wali">Nama Orang Tua / Wali</label>
+            <input type="text" name="nama orangtua/wali" id="nama orangtua/wali"><br>
+            <label for="pendidikan terakhir">Pendidikan Terakhir</label>
+            <select name="pendidikan terakhir" id="pendidikan terakhir">
+                <option value="1">SD</option>
+                <option value="2">SMP</option>
+                <option value="3">SMA</option>
+                <option value="4">Diploma</option>
+                <option value="5">Sarjana</option>
+            </select><br>  
+            <label for="pekerjaan orangtua/wali">Pekerjaan Orang Tua / Wali</label>
+            <select name="pekerjaan orangtua/wali"id="pekerjaan orangtua/wali">
+            <option value="pns">PNS</option>
+            <option value="polisi">Polisi</option>
+            <option value="dokter">Dokter</option>
+            <option value="karyawan swasta">Karyawan Swasta</option>
+            <option value="Wiraswasta">Wiraswasta</option>
+            <option value="buruh harian">Buruh Harian</option>
+            </select><br>
+            <label for="alamat">Alamat</label>
+            <Textarea cols="25" rows="5"></Textarea><br>
+            <label for="telpon">No. Telpon</label>
+            <input type="text" name="telpon" id="telpon"><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+        </form>
+    </main>
+    <footer>
+    <h2>Pelajaran Tambahan</h2>
+    <p>Hafalan (Asmaul Husna, Surat, Hadits, Doa-Doa), Tajwid, Tahfidz (Jus Amma), Bahasa Arab, Praktek Wudhu, dan Sholat</p>
+    </footer>
+</body>
+</html>
