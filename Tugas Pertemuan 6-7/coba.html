@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pertemuan 6</title>
+</head>
+<body>
+    <header>
+        <h2>Latihan Menggunakan Gambar</h2>
+    </header>
+    <main>
+        <figure>
+            <img src="maskot.png" alt="Maskot STIKOM" width="100" height="100">
+            <figcaption>Logo Maskot STIKOM</figcaption>
+        </figure>
+        <picture>
+            <source media="(min-width: 992px)" srcset="maskot.png" width="100">
+            <source media="(min-width: 768px)" srcset="images.png">
+            <img src="logo.jpg">
+        </picture>
+        
+        <video src="video.mp4"
+        controls
+        poster="thumbnail.png"
+        preload="none"
+        muted
+        width="100%"
+        ></video>
+    </main>
+    <footer>
+        <p>&copy STIKOM PGRI Banyuwangi 2024</p>
+    </footer>
+</body>
+</html>
