@@ -1,0 +1,63 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10;
+    flex-direction: column;
+}
+
+.flex-container div{
+    background-color: lightblue;
+    padding: 5px;
+}
+    
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery div{
+    flex: 1 1 calc(25%-10px);
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.header{
+    flex: 1 100%;
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.home{
+    flex: 1 100%;
+    background-color: lightyellow;
+    padding: 20px;
+    text-align: center;
+}
+
+.content{
+    flex: 2 200%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar{
+    flex: 1 100%;
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+.footer{
+    flex: 1 100%;
+    background-color: lightcoral;
+    padding: 20px;
+    text-align: center;
+}
