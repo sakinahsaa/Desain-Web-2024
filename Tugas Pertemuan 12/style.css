@@ -1,0 +1,135 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFA;
+  color: #212121;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  color: #1A237E;
+}
+
+header {
+  background-color: #1A237E;
+  color: rgb(203, 209, 230);
+  padding: 2em 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+  width: 80%;
+  margin: 0.5em auto;
+  border: 1px solid #acd8db;
+}
+
+nav {
+  text-align: center;
+  background-color: #acd8db;
+  padding: 1em 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #1A237E;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+nav ul li a:hover {
+  background-color: #1A237E;
+  color: #acd8db;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3em 2em;
+}
+
+.primer, .inverse-primer {
+  background-color: rgb(203, 209, 230);
+  color: #1A237E;
+  border: 2px solid #BBDEFB;
+  padding: 2em;
+  width: 45%;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.primer h2, .inverse-primer h2 {
+  margin-top: 0;
+}
+
+.inverse-primer {
+  background-color: #1A237E;
+  color: rgb(203, 209, 230);
+}
+
+aside {
+  background-color: #acd8db;
+  color: #1A237E;
+  padding: 2em;
+  width: 30%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+aside h3 {
+  margin-top: 0;
+}
+aside .cta-btn {
+  background-color: #388E3C;
+  color: rgb(203, 209, 230);
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  width: 100%;
+}
+aside .cta-btn:hover {
+  background-color: #acd8db;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .primer, .inverse-primer {
+    width: 80%;
+  }
+  aside {
+    width: 80%;
+    margin-top: 2em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
